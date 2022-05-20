@@ -43,3 +43,5 @@ jobs:
             severity-threshold: high
             fail-on-issues: false
             monitor-on-build: true
+            project: '${CIRCLE_PROJECT_REPONAME}/${CIRCLE_BRANCH}-app'
+         
