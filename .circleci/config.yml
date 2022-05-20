@@ -42,3 +42,4 @@ jobs:
       - snyk/scan:
             severity-threshold: high
             fail-on-issues: false
+            monitor-on-build: true
