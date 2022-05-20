@@ -41,4 +41,4 @@ jobs:
           #command: pytest
       - snyk/scan:
             severity-threshold: high
-            fail-on-issues: true
+            fail-on-issues: false
