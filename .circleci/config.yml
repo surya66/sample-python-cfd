@@ -48,4 +48,5 @@ jobs:
       # replace with your preferred image
       - image: cimg/base:stable
     steps:
-      - snyk/scan
+      - checkout
+      - snyk/scan 
